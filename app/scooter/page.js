@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import Image from 'next/image';
-import BootstrapInitializer from './BootstrapInitializer';
+import BootstrapInitializer from '../BootstrapInitializer';
 
 export default function Page() {
   return (
