@@ -1,6 +1,10 @@
 import "bootstrap/dist/css/bootstrap.css";
 
 export default function Page() {
+  const handleChange = (e) => {
+    console.log(e.target.value, e.target.name);
+  };
+
   return (
     <main
       className="contPrincipal container d-flex justify-content-center align-items-center"
@@ -17,8 +21,10 @@ export default function Page() {
               type="email"
               className="form-control"
               id="correo"
+              name="email"
               placeholder="Ingresa tu correo"
               required
+              onChange={handleChange}
             />
           </div>
           <div className="mb-3">
@@ -29,8 +35,10 @@ export default function Page() {
               type="password"
               className="form-control"
               id="contrasena"
+              name="password"
               placeholder="Ingresa tu contraseña"
               required
+              onChange={handleChange}
             />
           </div>
           <button type="submit" className="btn btn-primary">
