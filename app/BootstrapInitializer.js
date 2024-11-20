@@ -1,6 +1,6 @@
 "use client"; // Marca este componente como un componente del cliente
 import { useEffect } from "react";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
 export default function BootstrapInitializer() {
   useEffect(() => {
