@@ -55,7 +55,7 @@ export default function RootLayout({ children }) {
                 height={40}
                 className="d-inline-block align-text-top"
               />
-              <span className="fs-2 ps-3 fw-bold">ElecScoot</span>
+              <span className="fs-2 ps-3 fw-bold">Nombre</span>
             </Link>
             <button
               className="navbar-toggler"
